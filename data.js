@@ -3,14 +3,14 @@ import { v4 as uuidv4 } from "https://jspm.dev/uuid";
 export const postsData = [
   {
     handle: "@Abhay_🚧",
-    profilePic: "images/abhay.jpg",
+    profilePic: "./images/abhay.jpg",
     likes: 87,
     reposts: 21,
     postText: "Pyaar-vyaar sab dhokha hai, padh lo... abhi bhi mauka hai. 📚💔",
     replies: [
       {
         handle: "@NakulKeMemes 😎",
-        profilePic: "images/nakul.jpg",
+        profilePic: "./images/nakul.jpg",
         postText:
           "Bhai ne engineering se bhi toxic logon ko pehle expose kar diya 💀",
       },
@@ -21,7 +21,7 @@ export const postsData = [
   },
   {
     handle: "@Tanishka404 ⚡",
-    profilePic: "images/tanishka.jpg",
+    profilePic: "./images/tanishka.jpg",
     likes: 143,
     reposts: 30,
     postText:
@@ -29,7 +29,7 @@ export const postsData = [
     replies: [
       {
         handle: "@ResistorRishabh ⚡",
-        profilePic: "images/rishabh.jpg",
+        profilePic: "./images/rishabh.jpg",
         postText: "Doctor: Stable condition. Me: Push to GitHub?",
       },
     ],
@@ -39,7 +39,7 @@ export const postsData = [
   },
   {
     handle: "@NakulKeMemes 😎",
-    profilePic: "images/nakul.jpg",
+    profilePic: "./images/nakul.jpg",
     likes: 95,
     reposts: 18,
     postText:
@@ -51,7 +51,7 @@ export const postsData = [
   },
   {
     handle: "@ResistorRishabh ⚡",
-    profilePic: "images/rishabh.jpg",
+    profilePic: "./images/rishabh.jpg",
     likes: 57,
     reposts: 11,
     postText:
@@ -59,7 +59,7 @@ export const postsData = [
     replies: [
       {
         handle: "@Nyl_Sarcastic 😏",
-        profilePic: "images/nyl.jpg",
+        profilePic: "./images/nyl.jpg",
         postText:
           "Aur syllabus itna lamba ki NASA ne map banane ka contract le liya 📡",
       },
@@ -70,7 +70,7 @@ export const postsData = [
   },
   {
     handle: "@Nyl_Sarcastic 😏",
-    profilePic: "images/nyl.jpg",
+    profilePic: "./images/nyl.jpg",
     likes: 120,
     reposts: 40,
     postText: "Group study ka asli matlab: 10% padhai, 90% roast aur chai 🍵📚",
