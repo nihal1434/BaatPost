@@ -51,7 +51,7 @@ function handlePostBtnClick() {
   if (postInput.value) {
     postsData.unshift({
       handle: `@Nyl_Sarcastic 😏`,
-      profilePic: `public/images/nyl.png`,
+      profilePic: `images/nyl.jpg`,
       likes: 0,
       reposts: 0,
       postText: postInput.value,
