@@ -1,5 +1,10 @@
-import { postsData } from "./data.js";
+import { defaultPost } from "./data.js";
 import { v4 as uuidv4 } from "https://jspm.dev/uuid";
+
+let postsData=JSON.parse(localStorage.getItem("baatPosts"))||defaultPost
+function saveToLocalStorage(){
+  localStorage.setItem("baatPosts",JSON.stringify(postsData))
+}
 
 document.addEventListener("click", function (e) {
   if (e.target.dataset.like) {
@@ -24,6 +29,7 @@ function handleLikeClick(postId) {
     targetPostObj.likes++;
   }
   targetPostObj.isLiked = !targetPostObj.isLiked;
+  saveToLocalStorage();
   render();
 }
 
@@ -38,6 +44,7 @@ function handleRepostClick(postId) {
     targetPostObj.reposts++;
   }
   targetPostObj.isReposted = !targetPostObj.isReposted;
+  saveToLocalStorage()
   render();
 }
 
@@ -60,6 +67,7 @@ function handlePostBtnClick() {
       isReposted: false,
       uuid: uuidv4(),
     });
+    saveToLocalStorage()
     render();
     postInput.value = "";
   }
