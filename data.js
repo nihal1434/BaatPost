@@ -3,16 +3,15 @@ import { v4 as uuidv4 } from "https://jspm.dev/uuid";
 export const postsData = [
   {
     handle: "@Abhay_🚧",
-    profilePic: "img/abhay.png",
+    profilePic: "./img/abhay.png",
     likes: 87,
     reposts: 21,
     postText: "Pyaar-vyaar sab dhokha hai, padh lo... abhi bhi mauka hai. 📚💔",
     replies: [
       {
         handle: "@NakulKeMemes 😎",
-        profilePic: "img/nakul.png",
-        postText:
-          "Bhai ne engineering se bhi toxic logon ko pehle expose kar diya 💀",
+        profilePic: "./img/nakul.png",
+        postText:"Bhai ne engineering se bhi toxic logon ko pehle expose kar diya 💀",
       },
     ],
     isLiked: false,
@@ -21,7 +20,7 @@ export const postsData = [
   },
   {
     handle: "@Tanishka404 ⚡",
-    profilePic: "img/tanishka.png",
+    profilePic: "./img/tanishka.png",
     likes: 143,
     reposts: 30,
     postText:
@@ -29,7 +28,7 @@ export const postsData = [
     replies: [
       {
         handle: "@ResistorRishabh ⚡",
-        profilePic: "img/rishabh.png",
+        profilePic: "./img/rishabh.png",
         postText: "Doctor: Stable condition. Me: Push to GitHub?",
       },
     ],
@@ -39,7 +38,7 @@ export const postsData = [
   },
   {
     handle: "@NakulKeMemes 😎",
-    profilePic: "img/nakul.png",
+    profilePic: "./img/nakul.png",
     likes: 95,
     reposts: 18,
     postText:
@@ -51,7 +50,7 @@ export const postsData = [
   },
   {
     handle: "@ResistorRishabh ⚡",
-    profilePic: "img/rishabh.png",
+    profilePic: "./img/rishabh.png",
     likes: 57,
     reposts: 11,
     postText:
@@ -59,7 +58,7 @@ export const postsData = [
     replies: [
       {
         handle: "@Nyl_Sarcastic 😏",
-        profilePic: "img/nyl.png",
+        profilePic: "./img/nyl.png",
         postText:
           "Aur syllabus itna lamba ki NASA ne map banane ka contract le liya 📡",
       },
@@ -70,7 +69,7 @@ export const postsData = [
   },
   {
     handle: "@Nyl_Sarcastic 😏",
-    profilePic: "img/nyl.png",
+    profilePic: "./img/nyl.png",
     likes: 120,
     reposts: 40,
     postText: "Group study ka asli matlab: 10% padhai, 90% roast aur chai 🍵📚",
