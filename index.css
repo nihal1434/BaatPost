@@ -2,12 +2,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-      font-family: 'Roboto', sans-serif;
-
+  font-family: 'Roboto', sans-serif;
 }
 
 
 /* typography and icons */
+.name{
+    margin: auto auto auto 0;
+    margin-top:15px;
+   
+}
 .tittle {
     color: #ef7053;
 }
@@ -36,14 +40,27 @@ i {
 }
 
 /* layout */
+header{
+    width: 290px;
+    position: relative;
+    margin: 0 auto;
+}
 main,
-header {
+.header-container {
     width: 290px;
     margin: 0 auto;
 }
+main{
+    padding-top: 75px;
+}
+.header-container {
+    padding: 10px 0px 10px 10px ;
+    display: flex ;
+    gap: 3px;
+    margin-bottom: 20px;
+    background-color: #e3e1e1;
+    position: fixed;
 
-header {
-    padding-bottom: 25px;
 }
 
 .post-input-area {
@@ -78,7 +95,7 @@ button {
 
 button:active {
     background-color: #ef7053;
-    transform: translateY(3px);
+    transform: translateY(1px);
 }
 
 /* post */
@@ -129,12 +146,38 @@ button:active {
 
 /* images */
 .profile-pic {
-    border: 1px solid lightgray;
+    border: 1px solid #e3e1e1;
     border-radius: 100%;
-    width: 3rem;
+    width: 45px;
 }
 
 /* utility */
 .hidden {
     display: none;
 }
+.imglogo{
+    border-radius: 100%;
+    width: 45px;
+    background-color:transparent;
+    border: none;
+}
+.chatbox-bg {
+    background-color: #e3e1e1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+    display: flex;
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(100px); 
+    z-index: 1000;
+}
+
+.chatbox-img {
+   width: 50%; 
+   margin: auto;
+}
+

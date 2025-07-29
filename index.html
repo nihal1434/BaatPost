@@ -18,16 +18,22 @@
 
 <body>
 	<header>
-		<h1>Baat <span class="tittle">Post</span></h1>
+		<div class="header-container">
+		<img src="images/logo.png" class="imglogo">
+		<h1 class="name">Baat <span class="tittle">Post</span></h1>
+		</div>
 	</header>
 	<main>
 		<div class="post-input-area">
-			<img src="images/logo.png" class="profile-pic" />
+			<img src="images/nyl.png" class="profile-pic" />
 			<textarea placeholder="What's happening?" id="post-input"></textarea>
 		</div>
 		<button id="post-btn">Post</button>
 		<div class="feed" id="feed">
 			<!-- Posts here!! -->
+		</div>
+		<div class="chatbox-bg" id="chatbox-btn">
+			<img src="images/message.png"  class="chatbox-img">
 		</div>
 	</main>
 	<script src="index.js" type="module"></script>
