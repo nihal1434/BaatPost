@@ -48,6 +48,11 @@ function handleRepostClick(postId) {
   render();
 }
 
+document.getElementById("chatbox-btn").addEventListener("click", function () {
+  const postInput = document.getElementById('post-input');
+  postInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  postInput.focus();
+});
 function handleReplyClick(replyId) {
   document.getElementById(`replies-${replyId}`).classList.toggle("hidden");
 }
