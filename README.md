@@ -3,6 +3,7 @@
 BaatPost is a Twitter clone with a desi (Indian) twist — built while learning through the Scrimba Frontend Developer Career Path. Users can post funny, relatable thoughts and interact with others. This project focuses on JavaScript, DOM manipulation, and responsive design.
 
 🚀 Live Demo
+
 🔗[ baatpost.netlify.app](https://baatpost.netlify.app/)
 📁 Project Structure
 BaatPost/
@@ -21,6 +22,7 @@ BaatPost/
 └── README.md             # You're here!
 
 ⚙️ Features
+
 📝 Create and view posts
 ❤️ Like and 🔁 repost functionality
 💬 Replies and comments
@@ -28,6 +30,7 @@ BaatPost/
 📱 Responsive design for mobile & desktop
 
 🛠️ Technologies Used
+
 * HTML5
 * CSS3 (Flexbox + basic responsiveness)
 * JavaScript (DOM Manipulation)
@@ -39,6 +42,8 @@ Avoid using file:/// protocol directly — always use a local server to support 
 On production (e.g. Netlify), make sure images are correctly placed under /public or root based on build tool
 
 🙋‍♂️ Author
+
 Built with ❤️ by Mohammad Nihal
 feel free to fork and remix! 
+
 Happy Coding!
