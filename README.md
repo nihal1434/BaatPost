@@ -1,4 +1,4 @@
-🗣️ BaatPost - A Fun Twitter-Inspired Posting App
+🗣️ BaatPost - A Fun Twitter-Inspired Posting Web App
 
 BaatPost is a Twitter clone with a desi (Indian) twist — built while learning through the Scrimba Frontend Developer Career Path. Users can post funny, relatable thoughts and interact with others. This project focuses on JavaScript, DOM manipulation, and responsive design.
 
